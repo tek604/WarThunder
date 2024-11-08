@@ -1,0 +1,323 @@
+controls{
+  version:i=5
+
+  basePresetPaths{
+    default:t="wt/config/hotkeys/hotkey.keyboard_shooter_ver2.blk"
+  }
+
+  hotkeys{
+    ID_AIR_BRAKE{
+      keyboardKey:i=35
+    }
+
+    ID_AIR_BRAKE{
+      joyButton:i=46
+    }
+
+    ID_BOMBS{
+      keyboardKey:i=57
+    }
+
+    ID_BOMBS{
+      mouseButton:i=3
+    }
+
+    ID_BOMBS{
+      joyButton:i=31
+    }
+
+    ID_CAMERA_VIEW_BACK{
+      keyboardKey:i=52
+    }
+
+    ID_CAMERA_VIEW_BACK{
+      joyButton:i=23
+    }
+
+    ID_CONTINUE{
+      keyboardKey:i=57
+    }
+
+    ID_FIRE_ADDITIONAL_GUNS{
+      mouseButton:i=1
+    }
+
+    ID_FIRE_CANNONS{
+      keyboardKey:i=3
+    }
+
+    ID_FIRE_CANNONS{
+      mouseButton:i=1
+    }
+
+    ID_FIRE_SECONDARY{
+      keyboardKey:i=57
+    }
+
+    ID_FIRE_SECONDARY{
+      mouseButton:i=1
+    }
+
+    ID_FLAPS_DOWN{
+      keyboardKey:i=27
+    }
+
+    ID_FLAPS_DOWN{
+      joyButton:i=48
+    }
+
+    ID_FLAPS_UP{
+      keyboardKey:i=26
+    }
+
+    ID_FLAPS_UP{
+      joyButton:i=47
+    }
+
+    ID_GEAR{
+      keyboardKey:i=34
+    }
+
+    ID_GEAR{
+      joyButton:i=44
+    }
+
+    ID_ROCKETS{
+      keyboardKey:i=29
+    }
+
+    ID_ROCKETS{
+      joyButton:i=32
+    }
+
+    ID_SCHRAEGE_MUSIK{
+      joyButton:i=20
+    }
+
+    ID_SCREENSHOT{
+      keyboardKey:i=42
+      keyboardKey:i=183
+    }
+
+    ID_TACTICAL_MAP{
+      keyboardKey:i=50
+    }
+
+    ID_TACTICAL_MAP{
+      joyButton:i=55
+    }
+
+    ID_TOGGLE_VIEW{
+      keyboardKey:i=47
+    }
+
+    ID_TOGGLE_VIEW{
+      joyButton:i=10
+    }
+
+    ID_ZOOM_TOGGLE{}
+    throttle_rangeMax{}
+    throttle_rangeMin{}
+    throttle_rangeMin{
+      keyboardKey:i=31
+    }
+  }
+
+  axes{
+    camx{
+      relSens:r=0.64
+    }
+
+    camy{
+      relSens:r=0.49
+    }
+
+    human_camx{
+      axisId:i=5
+    }
+
+    human_camy{
+      axisId:i=6
+    }
+
+    human_mouse_aim_x{
+      axisId:i=5
+    }
+
+    human_mouse_aim_y{
+      axisId:i=6
+    }
+
+    human_strafe{
+      axisId:i=3
+    }
+
+    human_walk{
+      axisId:i=4
+    }
+
+    throttle{
+      axisId:i=4
+      mouseAxisId:i=-1
+      innerDeadzone:r=0.05
+      relative:b=no
+    }
+
+    zoom{
+      mouseAxisId:i=2
+    }
+  }
+
+  params{
+    USEROPT_AILERONS_MULTIPLIER:i=100
+    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=100
+    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=100
+    USEROPT_ELEVATOR_MULTIPLIER:i=100
+    USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=no
+    USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
+    USEROPT_GUNNER_VIEW_SENSE:i=100
+    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=100
+    USEROPT_INVERTCAMERAY:i=0
+    USEROPT_INVERTY_HELICOPTER:b=no
+    USEROPT_INVERTY_HELICOPTER_GUNNER:b=no
+    USEROPT_INVERTY_SHIP:b=no
+    USEROPT_INVERTY_SPECTATOR:b=no
+    USEROPT_INVERTY_SUBMARINE:b=no
+    USEROPT_JOYFX:b=no
+    USEROPT_RUDDER_MULTIPLIER:i=100
+    USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
+    USEROPT_SINGLE_SHOT_BY_TURRET:b=yes
+    USEROPT_WHEEL_CONTROL_SHIP:b=no
+    holdThrottleForWEP:b=no
+    mouseJoystick:b=no
+  }
+
+  deviceMapping{
+    joystick{
+      connected:b=yes
+      devId:t="044F:B679"
+      axesOffset:i=0
+      name:t="T-Rudder"
+      buttonsOffset:i=0
+      buttonsCount:i=0
+      axesCount:i=3
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="3344:8197"
+      axesOffset:i=3
+      name:t="LEFT VPC MongoosT-50CM3"
+      buttonsOffset:i=0
+      buttonsCount:i=79
+      axesCount:i=6
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="3344:43EB"
+      axesOffset:i=9
+      name:t="RIGHT VPC Stick WarBRD-D"
+      buttonsOffset:i=79
+      buttonsCount:i=31
+      axesCount:i=5
+    }
+
+    joystick{
+      connected:b=no
+      devId:t="3344:0197"
+      axesOffset:i=14
+      name:t="VPC MongoosT-50CM3"
+      buttonsOffset:i=110
+      buttonsCount:i=79
+      axesCount:i=6
+    }
+
+    joystick{
+      connected:b=no
+      devId:t="3344:03EB"
+      axesOffset:i=20
+      name:t="VPC Stick WarBRD-D"
+      buttonsOffset:i=189
+      buttonsCount:i=31
+      axesCount:i=5
+    }
+  }
+}
+
+settings{
+  aileronsMultiplier:r=1
+  elevatorMultiplier:r=1
+  rudderMultiplier:r=1
+  helicopterCyclicRollMultiplier:r=0.79
+  helicopterCyclicPitchMultiplier:r=0.64
+  helicopterPedalsMultiplier:r=0.43
+  freeCameraInertia:r=1
+  replayCameraWiggle:r=1
+  zoomSens:r=0
+  mouseSens:r=0.5
+  mouseAimSens:r=0.5
+  gunnerViewSens:r=1
+  gunnerViewZoomSens:r=1
+  atgmAimSensHelicopter:r=1
+  atgmAimZoomSensHelicopter:r=1
+  mouseSmooth:b=no
+  mouseJoystickDeadZone:r=0.1
+  helicopterMouseJoystickDeadZone:r=0.1
+  mouseJoystickScreenSize:r=0.6
+  helicopterMouseJoystickScreenSize:r=0.6
+  mouseJoystickScreenPlace:r=0
+  helicopterMouseJoystickScreenPlace:r=0
+  mouseJoystickSensitivity:r=2
+  helicopterMouseJoystickSensitivity:r=2
+  mouseAileronAileronFactor:r=1
+  helicopterMouseAileronAileronFactor:r=1
+  mouseAileronRudderFactor:r=0.5
+  helicopterMouseAileronRudderFactor:r=0.5
+  mouseJoystickSquare:b=no
+  helicopterMouseJoystickSquare:b=no
+  mouseJoyMode:i=0
+  helicopterMouseJoyMode:i=0
+  aimTimeNonlinearityAir:r=0
+  aimTimeNonlinearityHelicopter:r=0
+  aimTimeNonlinearityTank:r=0
+  aimTimeNonlinearityWalker:r=0
+  aimTimeNonlinearityShip:r=0
+  aimTimeNonlinearitySubmarine:r=0
+  aimAccelerationDelayAir:r=0.5
+  aimAccelerationDelayHelicopter:r=0.5
+  aimAccelerationDelayTank:r=0.5
+  aimAccelerationDelayWalker:r=0.5
+  aimAccelerationDelayShip:r=0.5
+  aimAccelerationDelaySubmarine:r=0.5
+  mouseZMultAir:r=1
+  mouseZMultHelicopter:r=0.5
+  mouseZMultTank:r=0.5
+  mouseZMultShip:r=0.5
+  mouseZMultSubmarine:r=0.5
+  gamepadMinVibration:r=0.05
+  cameraSmooth:r=0
+  cameraSpeed:r=1.325
+  cameraMouseSpeed:r=3.95
+  cameraFpsPhysMult:r=0.5
+  vrCameraFpsPhysMult:r=0
+  invertY:b=no
+  invertX:b=no
+  invertT:b=no
+  invertYTank:b=no
+  invertYShip:b=no
+  invertYHelicopter:b=no
+  invertYHelicopterGunner:b=no
+  invertYWalker:b=no
+  invertYSpectator:b=no
+  invertYSubmarine:b=no
+  cameraInvertY:b=no
+  isXChgSticks:b=no
+  secondaryInvert:b=no
+  secondaryXChgSticks:b=no
+  zoomForTurret:b=no
+  isVibration:b=no
+  forceGain:r=1
+  cameraShakeMultiplier:r=1
+  vrCameraShakeMultiplier:r=1
+}
