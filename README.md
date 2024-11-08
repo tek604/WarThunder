@@ -1,0 +1,2 @@
+# WarThunder
+War Thunder Settings
